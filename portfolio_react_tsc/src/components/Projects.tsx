@@ -1,6 +1,13 @@
 import { useNavigate } from "react-router-dom"
 import { useState,useEffect } from "react"
-import githublogo from '../assets/githublogo.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub} from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+
+
 
 
 const Projects = () => {
@@ -37,13 +44,18 @@ const Projects = () => {
                 </div>
                 <div id="navMain">
                     <h1>Check out my latest projects...</h1>
-                    <h4>There is some of my works and info about it, that i want to show you</h4>
                 </div>
             </nav>
-            <h1>PROJECT</h1>
+            <div className="project">
+                <h1>Hairdresser booker</h1>
+                <h3>Created a web application that organizes the workdays of hairdressers or salons.</h3> <a href="https://github.com/flet1234/hairdresserBooking/">Github</a> <a href="https://hairdresserbooking.onrender.com">Demo</a>
+                <p>Developed backend using TypeScript, Node.js, and PostgreSQL, resulting in a robust and scalable server-side infrastructure.
+                Implemented frontend using TypeScript, React, and Redux on Vite, ensuring a fast and responsive user interface.</p>
+            </div>
             <footer>
                 <a href="https://github.com/flet1234" target="_blank" rel="noopener noreferrer">
-                    <img src={githublogo} alt="GitHub Logo" />
+                <FontAwesomeIcon style={{fontSize:'20px'
+                }} icon={faGithub}/>
                 </a>
                 <a href="#" target="_blank" rel="noopener noreferrer">My Linkedin</a>
                 <h6>&copy; {new Date().getFullYear()}</h6>

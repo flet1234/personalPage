@@ -1,6 +1,13 @@
 import {useNavigate} from "react-router-dom"
-import githublogo from '../assets/githublogo.jpg'
 import { useEffect,useState } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub} from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+
+
 
 
 
@@ -38,28 +45,25 @@ const Contact = () => {
                     </div>
                 </div>
                 <div id="navMain">
-                    <h1>You want to leave a message?</h1>
-                    <h4>I will answer you as soon as i can, i promise!</h4>
+                    <h1>Contact page</h1>
                 </div>
             </nav>
             <div className="container">
                 <h1>Contact me: </h1>
-                <form action="">
                     <div className="form-group">
-                        <label htmlFor="name">Your name: </label><input type="text" id="name" name="name"/>
+                        <p>Telephone: +972-523-620-160</p>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="email">Your email: </label><input type="email" name="email" id="email" />
+                        <p>Email: flet1908@gmail.com</p>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message">Your message: </label><textarea name="message" id="message"></textarea>
+                        <p>City: Haifa, Yoqneam Illit </p>
                     </div>
-                    <input type="submit" value="Send" />
-                </form>
             </div>
             <footer>
                 <a href="https://github.com/flet1234" target="_blank" rel="noopener noreferrer">
-                    <img src={githublogo} alt="GitHub Logo" />
+                <FontAwesomeIcon style={{fontSize:'20px'
+                }} icon={faGithub}/>
                 </a>
                 <a href="#" target="_blank" rel="noopener noreferrer">My Linkedin</a>
                 <h6>&copy; {new Date().getFullYear()}</h6>

@@ -1,6 +1,13 @@
 import {useNavigate} from "react-router-dom"
-import githublogo from '../assets/githublogo.jpg'
 import { useEffect,useState } from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub} from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+
+
 
 
 const About = () => {
@@ -35,8 +42,7 @@ const About = () => {
                     </div>
                 </div>
                 <div id="navMain">
-                    <h1>Let's know each other...</h1>
-                    <h4>Here you can u can find all the main info about me</h4>
+                    <h2>Here you can u can find all the main info about me:</h2>
                 </div>
             </nav>
             <section>
@@ -67,7 +73,8 @@ const About = () => {
             </section>
             <footer>
             <a href="https://github.com/flet1234" target="_blank" rel="noopener noreferrer">
-                <img src={githublogo} alt="GitHub Logo" />
+            <FontAwesomeIcon style={{fontSize:'20px'
+                }} icon={faGithub}/>
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">My Linkedin</a>
             <h6>&copy; {new Date().getFullYear()}</h6>

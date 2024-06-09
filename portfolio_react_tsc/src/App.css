@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url('./assets//main_background.svg');
+  background-image: url('https://res.cloudinary.com/dmd9hfv3n/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1717938030/Pngtree_black_yellow_simple_background_1919516_bnt14q.png');
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #333;
+  background-color: #33333391;
   color: white;
   padding: 1em;
   font-family: Arial, sans-serif;
@@ -66,7 +66,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 1em;
-  background-color: #333;
+  background-color: #33333382;
   color: white;
   font-family: Arial, sans-serif;
   position: fixed;
@@ -98,19 +98,20 @@ footer h6 {
 
 /* Form Container */
 .container {
+  display: flex;
+  flex-direction: column;
+  gap:10px;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 20px;
+  
 }
 
 /* Form Elements */
 .form-group {
   margin-bottom: 20px;
-}
-
-label {
-  display: block;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 input[type="text"],
@@ -149,18 +150,23 @@ section {
 /* Article Styles */
 article {
   margin-bottom: 40px;
+  color: white;
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.429) 50%, rgba(0, 0, 0, 0.648) 100%);
+  
 }
 
 /* Article Header Styles */
 article h2 {
   margin-bottom: 10px;
-  color: #333;
+  font-size: 2rem;
+  color: #ebe9e9;
 }
 
 /* Article Content Styles */
 article p {
+  font-size: 1.2rem;
   line-height: 1.6;
-  color: #555;
+  color: #e6e3e3;
 }
 
 /* Skills List Styles */
@@ -170,10 +176,12 @@ ul {
 
 li {
   margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 li b {
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* Language Skills Styles */
@@ -189,40 +197,23 @@ li:last-child:before {
 
 /* Landing Page Container */
 .main_container {
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+  border-radius: 20px;
   max-width: 800px;
-  margin: 25vh 15vw; 
+  margin:200px auto;
   padding: 40px;
   text-align: center;
-  text-shadow: 3px 3px black;
+  text-shadow: 1px 1px black;
 }
 
 /* Heading Styles */
 .main_container h1 {
   position: relative;
-  font-size: 72px;
-  color: #ffffff;
+  font-size: 48px;
+  color: #ececec;
   margin-bottom: 20px;
 }
 
-
-#mainImageContainer {
-  position: absolute;
-  top: 10vh;
-  right: 25vw;
-  width: 540px; /* Adjusted to account for the border width */
-  height: 540px; /* Adjusted to account for the border width */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#mainImage {
-  position: relative;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  z-index: 1;
-}
 
 #mainImageContainer::before,
 #mainImageContainer::after {
@@ -249,15 +240,15 @@ li:last-child:before {
 }
 
 .main_container h2 {
-  font-size: 44px;
-  color: #ffffff;
+  font-size: 28px;
+  color: #eeeded;
   margin-bottom: 30px;
 }
 
 /* Button Styles */
 button {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #e8d41f;
+  color: #000000;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -268,7 +259,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #e08210;
 }
 
 button a {
@@ -277,7 +268,8 @@ button a {
 }
 
 .activeLink {
-  background-color: red;
+  background-color: rgb(4, 4, 4);
+  color: white;
 }
 
 .fade-out {
@@ -291,6 +283,7 @@ button a {
 }
 
 .arrow-button {
+  color: whitesmoke;
   background: none;
   border: none;
   cursor: pointer;
@@ -330,4 +323,30 @@ button a {
   border-right: 50px solid black;
   top: 0;
   left: 150px;
+}
+
+.project{
+  width: 30%;
+  border-radius: 15px;
+  margin: 20px;
+  color: white;
+  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.429) 50%, rgba(0, 0, 0, 0.648) 100%);
+}
+
+.project h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #ebe9e9;
+}
+
+/* Article Content Styles */
+.project p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #e6e3e3;
+}
+
+.project a {
+  font-size: 1.5rem;
+  color: whitesmoke;
 }
