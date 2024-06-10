@@ -62,7 +62,8 @@ const About = () => {
                         <li><b>Problem Solving:</b> Divide problems into smaller pieces, and even if you have millions of them, solving each one makes it fewer</li>
                         <li><b>Language:</b> Fluent english, Native Russian, Intermidiate Hebrew </li>
                     </ul>
-                </article>   
+                </article>  
+                <button onClick={()=>navigate('/CV')}>Show CV</button>
             </section>
             <footer>
             <a href="https://github.com/flet1234" target="_blank" rel="noopener noreferrer">

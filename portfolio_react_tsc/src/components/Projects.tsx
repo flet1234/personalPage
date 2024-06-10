@@ -3,13 +3,6 @@ import { useState,useEffect } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
 
-
-
-
-
-
-
-
 const Projects = () => {
 
     const [fade, setFade] = useState(true)
