@@ -28,6 +28,13 @@ nav {
   margin-bottom: 1em;
 }
 
+#Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
 #navLinks div {
   margin: 0 1em;
 }

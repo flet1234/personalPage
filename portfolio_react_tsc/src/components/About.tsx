@@ -56,9 +56,9 @@ const About = () => {
                     <h2>My Skills</h2>
                     <ul>
                         <li><b>Programming Languages:</b> JavaScript, Python, TypeScript</li>
-                        <li><b>Web Development:</b> React.js, Node.js, Express.js, Redux.js</li>
-                        <li><b>Database Management:</b> MySQL, PostgreSQL</li>
-                        <li><b>Version Control:</b> Git, GitHub</li>
+                        <li><b>Web Development:</b> React.js, Node.js, Express.js, Redux.js, Next.js</li>
+                        <li><b>Database Management:</b> MySQL, PostgreSQL, MangoDB</li>
+                        <li><b>Version Control:</b> Git, GitHub, Gitlab</li>
                         <li><b>Problem Solving:</b> Divide problems into smaller pieces, and even if you have millions of them, solving each one makes it fewer</li>
                         <li><b>Language:</b> Fluent english, Native Russian, Intermidiate Hebrew </li>
                     </ul>
