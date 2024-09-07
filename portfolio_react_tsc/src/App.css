@@ -146,6 +146,7 @@ input[type="submit"]:hover {
 /* Section Styles */
 section {
   padding: 20px;
+  height: 100vh;
 }
 
 /* Article Styles */
