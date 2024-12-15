@@ -208,12 +208,17 @@ li:last-child:before {
   background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
   border-radius: 20px;
   max-width: 800px;
-  margin:200px auto;
+  margin:100px auto;
   padding: 40px;
   text-align: center;
   text-shadow: 1px 1px black;
 }
 
+.project_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 /* Heading Styles */
 .main_container h1 {
   position: relative;
@@ -338,7 +343,8 @@ button a {
   border-radius: 15px;
   margin: 20px;
   color: white;
-  background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0, 0, 0, 0.429) 50%, rgba(0, 0, 0, 0.648) 100%);
+  background: rgba(0, 0, 0, 0.523);
+  padding: 10px;
 }
 
 .project h3 {
@@ -356,5 +362,15 @@ button a {
 
 .project a {
   font-size: 1.5rem;
-  color: whitesmoke;
+  margin: 0.5rem;
+  color: rgb(255, 225, 2);
+  padding: 5px;
+  border-radius: 10px;;
+  border: #000000 2px solid;
+  text-decoration: none;
 }
+
+.project a:hover {
+  background-color: rgba(255, 204, 2, 0.508);
+}
+

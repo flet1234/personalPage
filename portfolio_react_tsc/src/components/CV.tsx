@@ -1,4 +1,4 @@
-import cv from '../assets/Maksim Gold CV FULL-STACK.pdf'
+import cv from '../assets/Maksim Gold CV FULL-STACK Y.pdf'
 
 const CV = () => {
     return (
