@@ -1,0 +1,190 @@
+.sun-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 12rem;
+  height: 11.5rem;
+}
+
+.sun {
+  width: 5rem;
+  height: 5rem;
+  background: var(--background);
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+.blue-fill {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  align-self: flex-end;
+  position: absolute;
+  background: var(--secondBackground);
+  z-index: 2;
+}
+.rays-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  bottom: -1rem;
+  z-index: 3;
+  animation: rotate 10s linear infinite;
+}
+.rays {
+  width: 0.7rem;
+  height: 2.3rem;
+  position: absolute;
+  border-radius: 15%;
+  background: var(--background);
+}
+
+.blue-rays {
+  background: var(--secondBackground);
+}
+
+.ray1 {
+  bottom: 3.8rem;
+  left: -0.5rem;
+  rotate: -70deg;
+  animation: bgChange1 10s infinite;
+}
+.ray2 {
+  bottom: 5.5rem;
+  left: 0.8rem;
+  rotate: -40deg;
+  animation: bgChange2 10s infinite;
+}
+.ray3 {
+  bottom: 6.3rem;
+  left: 3rem;
+  rotate: 0deg;
+  animation: bgChange3 10s infinite;
+}
+.ray4 {
+  bottom: 5.5rem;
+  right: 0.8rem;
+  rotate: 40deg;
+  animation: bgChange4 10s infinite;
+}
+.ray5 {
+  bottom: 3.8rem;
+  right: -0.5rem;
+  rotate: 70deg;
+  animation: bgChange5 10s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bgChange1 {
+  0% {
+    background: var(--background);
+  }
+  40% {
+    background: var(--background);
+  }
+  45% {
+    background: var(--secondBackground);
+  }
+  92% {
+    background: var(--secondBackground);
+  }
+  97% {
+    background: var(--background);
+  }
+  100% {
+    background: var(--background);
+  }
+}
+@keyframes bgChange2 {
+  0% {
+    background: var(--background);
+  }
+  32% {
+    background: var(--background);
+  }
+  37% {
+    background: var(--secondBackground);
+  }
+  85% {
+    background: var(--secondBackground);
+  }
+  90% {
+    background: var(--background);
+  }
+  100% {
+    background: var(--background);
+  }
+}
+@keyframes bgChange3 {
+  0% {
+    background: var(--background);
+  }
+  23% {
+    background: var(--background);
+  }
+  28% {
+    background: var(--secondBackground);
+  }
+  74% {
+    background: var(--secondBackground);
+  }
+  79% {
+    background: var(--background);
+  }
+  100% {
+    background: var(--background);
+  }
+}
+@keyframes bgChange4 {
+  0% {
+    background: var(--background);
+  }
+  11% {
+    background: var(--background);
+  }
+  16% {
+    background: var(--secondBackground);
+  }
+  63% {
+    background: var(--secondBackground);
+  }
+  68% {
+    background: var(--background);
+  }
+  100% {
+    background: var(--background);
+  }
+}
+@keyframes bgChange5 {
+  0% {
+    background: var(--background);
+  }
+  3% {
+    background: var(--background);
+  }
+  8% {
+    background: var(--secondBackground);
+  }
+  55% {
+    background: var(--secondBackground);
+  }
+  60% {
+    background: var(--background);
+  }
+  100% {
+    background: var(--background);
+  }
+}
