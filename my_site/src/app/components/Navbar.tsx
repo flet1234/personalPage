@@ -1,27 +1,35 @@
+import MobileDropdown from "./MobileDropdown";
 import Sun from "./Sun";
 
 const Navbar = () => {
   return (
-    <nav className="h-24 flex bg-sky-700 justify-between items-center px-20 text-slate-200">
-      <div>
-        <h1 className="text-5xl font-black">Maksim Gold</h1>
-        <h2 className="text-xl font-black">Full Stack Developer</h2>
+    <nav className="h-20 flex bg-sky-700 justify-between items-center px-2 text-slate-200">
+      <div className="flex items-center">
+        <div className="w-9/12">
+          <h1 className="text-xl font-black">Maksim Gold</h1>
+          <h2 className="text-sm font-bold">Full Stack Developer</h2>
+        </div>
+        <Sun />
       </div>
-      <Sun />
-      <ul className="flex space-x-10 text-xl">
+      {}
+      <ul className="hidden lg:flex space-x-10 text-xl ">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#">Projects</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contacts">Contact</a>
         </li>
       </ul>
+      <MobileDropdown />
     </nav>
   );
 };

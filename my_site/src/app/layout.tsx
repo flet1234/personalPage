@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en">  
+      <body id="home" className="bg-background w-screen">
         <Navbar />
         {children}
         <Footer />

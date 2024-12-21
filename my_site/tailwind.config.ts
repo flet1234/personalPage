@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secondBackground: "var(--secondBackground)",
+        textColor: "var(--textColor)",
       },
     },
   },
