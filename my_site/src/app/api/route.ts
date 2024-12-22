@@ -3,13 +3,15 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function sendEmail(text: string) {
+export async function POST(req: Request) {
   try {
+    const body = await req.json();
+    const text = body.message;
     const { data, error } = await resend.emails.send({
       from: "My site <onboarding@resend.dev>",
       to: ["flet1908@gmail.com"],
       subject: "Message from my site",
-      react: EmailTemplate({ text: text })
+      react: EmailTemplate({ text }),
     });
 
     if (error) {
