@@ -21,6 +21,10 @@ export default function MobileDropdown() {
     }
   };
 
+  const handleClick = () => {
+    setIsOpen(false);
+  }
+
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     document.addEventListener("keydown", handleKeyDown); // Handle escape key
@@ -67,19 +71,29 @@ export default function MobileDropdown() {
           <div className="flex-col items-center my-2">
             <ul className="flex flex-col text-xl items-center space-y-2">
               <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
-                <a href="#home">Home</a>
+                <a href="#home" onClick={handleClick}>
+                  Home
+                </a>
               </li>
               <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
-                <a href="#about">About</a>
+                <a href="#about" onClick={handleClick}>
+                  About
+                </a>
               </li>
               <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
-                <a href="#skills">Skills</a>
+                <a href="#skills" onClick={handleClick}>
+                  Skills
+                </a>
               </li>
               <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
-                <a href="#projects">Projects</a>
+                <a href="#projects" onClick={handleClick}>
+                  Projects
+                </a>
               </li>
               <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
-                <a href="#contacts">Contact</a>
+                <a href="#contacts" onClick={handleClick}>
+                  Contacts
+                </a>
               </li>
             </ul>
           </div>

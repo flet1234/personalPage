@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">  
-      <body id="home" className="bg-background w-screen">
+      <body id="home" className="bg-background">
         <Navbar />
         {children}
         <Footer />
