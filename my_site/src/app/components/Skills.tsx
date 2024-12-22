@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div className="bg-secondBackground w-full">
-      <section className="flex flex-col justify-center p-2" id="skills">
+      <section className="flex flex-col justify-center py-2 px-4" id="skills">
         <h1 className="text-3xl font-black text-background w-full border-b-2 border-background">Skills</h1>
         <article className="text-background text-sm">
           <p>
