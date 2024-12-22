@@ -1,4 +1,3 @@
-import ContactMessage from "./ContactMessage";
 
 const Contacts = () => {
 
@@ -9,7 +8,6 @@ const Contacts = () => {
         <article className="text-background">
           <p>Telephone: +972-523-620-160</p>
           <p>Email: flet1908@gmail.com</p>
-          <ContactMessage />
         </article>
       </section>
     </div>
