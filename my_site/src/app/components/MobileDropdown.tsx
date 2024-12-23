@@ -63,7 +63,7 @@ export default function MobileDropdown() {
 
       {/* Mobile Dropdown Menu */}
       <div
-        className={`absolute top-20 right-0 overflow-y-visible w-40 transition-all duration-300 origin-top transform bg-secondBackground text-background rounded ${
+        className={`absolute top-20 right-0 overflow-y-visible w-40 transition-all duration-300 origin-top transform bg-secondBackground text-background rounded-b ${
           isOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"
         }`}
       >
