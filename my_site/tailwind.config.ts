@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
+  darkMode: 'selector',
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,6 +14,7 @@ export default {
         foreground: "var(--foreground)",
         secondBackground: "var(--secondBackground)",
         textColor: "var(--textColor)",
+        textDarkColor: "var(--textDarkColor)",
       },
     },
   },

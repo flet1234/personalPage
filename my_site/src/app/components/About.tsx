@@ -2,8 +2,8 @@ const About = () => {
   return (
     <section className="flex flex-col justify-center mt-2 py-2 px-4" id="about">
       <h1 className="text-3xl font-black text-secondBackground w-full border-b-2 border-secondBackground">About</h1>
-      <article>
-        <p className="text-textColor text-sm">
+      <article className="mt-2">
+        <p className="text-textColor text-sm dark:text-textDarkColor">
           Experienced full-stack developer with a degree from Developers Institute in Tel Aviv. Skilled in front-end and back-end
           development. Achieved 2nd place in the first hackathon and 1st place in the second hackathon during DI bootcamp, showcasing strong
           problem-solving abilities and collaborative skills. Former esports enthusiast with a background in competitive gaming,

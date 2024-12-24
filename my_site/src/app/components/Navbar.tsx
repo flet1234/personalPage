@@ -3,7 +3,7 @@ import Sun from "./Sun";
 
 const Navbar = () => {
   return (
-    <nav className="h-20 flex bg-sky-700 justify-between items-center px-2 text-slate-200">
+    <nav className="h-20 flex bg-sky-700 justify-between items-center px-2 text-slate-200 dark:text-slate-300">
       <div className="flex items-center">
         <div className="flex flex-col w-full">
           <h1 className="text-2xl font-black">Maksim Gold</h1>

@@ -16,7 +16,7 @@ const Project = ({
   type: "blue" | "white";
 }) => {
   return (
-    <div className="flex flex-col py-2 text-textColor border-b-2 border-secondBackground border-dashed last:border-0">
+    <div className="flex flex-col py-2 text-textColor dark:text-textDarkColor border-b-2 border-secondBackground border-dashed last:border-0">
       <div className="flex gap-4 items-center justify-between">
         <h2 className="text-xl font-bold text-secondBackground">{name}</h2>
         <div className="flex gap-4">

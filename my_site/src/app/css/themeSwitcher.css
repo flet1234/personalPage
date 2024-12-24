@@ -1,0 +1,57 @@
+.themeIcon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.themeIcon:hover{
+    cursor: pointer;
+    animation: hovering 1s infinite;
+}
+
+.out {
+    display: block;
+    position: absolute;
+    animation: shrink 1s ease-in-out forwards; 
+}
+.in {
+    display: block;
+    position: absolute;
+    animation: grow 1s ease-in-out forwards;
+}
+
+
+@keyframes shrink {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes hovering {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

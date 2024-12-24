@@ -12,12 +12,15 @@
 .sun {
   width: 5rem;
   height: 5rem;
-  background: var(--background);
   border-radius: 50%;
   z-index: 1;
   position: relative;
 }
+
 .blue-fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -25,7 +28,7 @@
   align-self: flex-end;
   position: absolute;
   background: var(--secondBackground);
-  z-index: 2;
+  z-index: 10;
 }
 .rays-container {
   position: absolute;

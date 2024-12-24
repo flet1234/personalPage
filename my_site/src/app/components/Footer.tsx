@@ -1,9 +1,9 @@
 const Footer = () => {
     return (
-      <footer className="bg-background text-slate-200 p-5 w-full">
+      <footer className="bg-background dark:bg-black p-5 w-full">
         <div className="flex justify-between text-secondBackground text-sm gap-4 text-secondBackground">
           <ul className="flex flex-col">
-            <h3 className="font-semibold text-textColor">Site links:</h3>
+            <h3 className="font-semibold text-textColor dark:text-textDarkColor">Site links:</h3>
             <li>
               <a href="#home">Home</a>
             </li>
@@ -21,7 +21,7 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="flex flex-col">
-            <h3 className="font-semibold text-textColor">Outer links:</h3>
+            <h3 className="font-semibold text-textColor dark:text-textDarkColor">Outer links:</h3>
             <li>
               <a href="https://www.linkedin.com/in/maksim-gold-453429139/" target="_blank" rel="noreferrer">
                 LinkedIn
@@ -34,7 +34,7 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="flex flex-col">
-            <h3 className="font-semibold text-textColor">Project links:</h3>
+            <h3 className="font-semibold text-textColor dark:text-textDarkColor">Project links:</h3>
             <li>
               <a href="https://flextestcase.onrender.com/" target="_blank" rel="noreferrer">
                 MoviePicker
@@ -47,7 +47,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <h4 className="flex justify-end text-textColor">© 2024 Maksim Gold</h4>
+        <h4 className="flex justify-end text-textColor dark:text-textDarkColor">© 2024 Maksim Gold</h4>
       </footer>
     );
 }
