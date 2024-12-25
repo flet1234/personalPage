@@ -21,19 +21,6 @@ const Footer = () => {
             </li>
           </ul>
           <ul className="flex flex-col">
-            <h3 className="font-semibold text-textColor dark:text-textDarkColor">Outer links:</h3>
-            <li>
-              <a href="https://www.linkedin.com/in/maksim-gold-453429139/" target="_blank" rel="noreferrer">
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/flet1234" target="_blank" rel="noreferrer">
-                GitHub
-              </a>
-            </li>
-          </ul>
-          <ul className="flex flex-col">
             <h3 className="font-semibold text-textColor dark:text-textDarkColor">Project links:</h3>
             <li>
               <a href="https://flextestcase.onrender.com/" target="_blank" rel="noreferrer">
@@ -43,6 +30,19 @@ const Footer = () => {
             <li>
               <a href="https://hairdresserbooking.onrender.com" target="_blank" rel="noreferrer">
                 Hairdresser booker
+              </a>
+            </li>
+          </ul>
+          <ul className="flex flex-col">
+            <h3 className="font-semibold text-textColor dark:text-textDarkColor">Outer links:</h3>
+            <li>
+              <a href="https://www.linkedin.com/in/maksim-gold-453429139/" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/flet1234" target="_blank" rel="noreferrer">
+                GitHub
               </a>
             </li>
           </ul>
