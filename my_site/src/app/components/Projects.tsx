@@ -1,9 +1,12 @@
+import HeaderAnimation from "./HeaderAnimations";
 import Project from "./Project";
 
 const Projects = () => {
   return (
     <section className="flex flex-col justify-center py-2 px-4" id="projects">
-      <h1 className="text-3xl font-black text-secondBackground w-full border-b-2 border-secondBackground py-1">Projects</h1>
+      <h1 className="text-3xl font-black text-secondBackground w-full">
+        <HeaderAnimation name="Projects" borderColor="secondBackground" />
+      </h1>
       <article className="flex flex-col gap-2">
         <Project
           name={"MoviePicker"}

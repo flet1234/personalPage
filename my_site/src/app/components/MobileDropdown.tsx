@@ -82,27 +82,27 @@ export default function MobileDropdown() {
         {isOpen && (
           <div className="flex-col items-center my-2 dark:text-slate-300">
             <ul className="flex flex-col text-xl items-center space-y-2">
-              <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
+              <li className="w-8/12 text-center h-8 hover:scale-110 transform transition-all">
                 <a href="#home" onClick={handleClick}>
                   Home
                 </a>
               </li>
-              <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
+              <li className="w-8/12 text-center h-8 hover:scale-110 transform transition-all">
                 <a href="#about" onClick={handleClick}>
                   About
                 </a>
               </li>
-              <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
+              <li className="w-8/12 text-center h-8 hover:scale-110 transform transition-all">
                 <a href="#skills" onClick={handleClick}>
                   Skills
                 </a>
               </li>
-              <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
+              <li className="w-8/12 text-center h-8 hover:scale-110 transform transition-all">
                 <a href="#projects" onClick={handleClick}>
                   Projects
                 </a>
               </li>
-              <li className="hover:bg-sky-800 w-8/12 text-center h-8 hover:border-x-2 border-background border-dashed">
+              <li className="w-8/12 text-center h-8 hover:scale-110 transform transition-all">
                 <a href="#contacts" onClick={handleClick}>
                   Contacts
                 </a>
