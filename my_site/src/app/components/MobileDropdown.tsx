@@ -48,7 +48,7 @@ export default function MobileDropdown() {
   }, []);
 
   return (
-    <div className=" z-50 mr-4 flex flex-col lg:hidden" ref={dropdownRef}>
+    <div className=" z-50 mr-4 flex flex-col md:hidden" ref={dropdownRef}>
       <div onClick={toggleMenu} className="focus:outline-none cursor-pointer">
         <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clipPath="url(#clip0_83_4005)">

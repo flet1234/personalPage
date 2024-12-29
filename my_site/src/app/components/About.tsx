@@ -2,7 +2,7 @@ import HeaderAnimation from "./HeaderAnimations";
 
 const About = () => {
   return (
-    <section className="flex flex-col justify-center mt-2 py-2 px-4" id="about">
+    <section className="flex flex-col justify-center mt-2 py-2 px-4 md:max-w-screen-md" id="about">
       <h1 className="text-3xl font-black text-secondBackground w-full">
         <HeaderAnimation name="About" borderColor="secondBackground" />
       </h1>

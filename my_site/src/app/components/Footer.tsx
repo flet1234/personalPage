@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="bg-background dark:bg-black p-5 w-full">
+      <footer className="bg-background dark:bg-black p-5 w-full md:max-w-screen-md mx-auto">
         <div className="flex justify-between text-secondBackground text-sm gap-4 text-secondBackground">
           <ul className="flex flex-col">
             <h3 className="font-semibold text-textColor dark:text-textDarkColor">Site links:</h3>

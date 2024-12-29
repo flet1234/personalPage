@@ -16,9 +16,9 @@ const Project = ({
   type: "blue" | "white";
 }) => {
   return (
-    <div className="flex flex-col py-2 text-textColor dark:text-textDarkColor border-b-2 border-secondBackground border-dashed last:border-0">
+    <div className="flex flex-col py-2 text-textColor dark:text-textDarkColor border-b-2 border-secondBackground border-dashed last:border-0 md:w-5/12 md:border-0">
       <div className="flex gap-4 items-center justify-between">
-        <h2 className="text-xl font-bold text-secondBackground">{name}</h2>
+        <h2 className="text-xl font-bold text-secondBackground tracking-tight">{name}</h2>
         <div className="flex gap-4">
           <ButtonLink name={"Github"} link={githubLink} type={type} />
           <ButtonLink name={"Demo"} link={demoLink} type={type} />

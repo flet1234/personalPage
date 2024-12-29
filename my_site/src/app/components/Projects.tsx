@@ -3,11 +3,11 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <section className="flex flex-col justify-center py-2 px-4" id="projects">
+    <section className="flex flex-col justify-center py-2 px-4 md:max-w-screen-md mx-auto" id="projects">
       <h1 className="text-3xl font-black text-secondBackground w-full">
         <HeaderAnimation name="Projects" borderColor="secondBackground" />
       </h1>
-      <article className="flex flex-col gap-2">
+      <article className="flex flex-col gap-2 md:flex-row md:flex-wrap md:gap-4 md:justify-around">
         <Project
           name={"MoviePicker"}
           description={"Developed a front-end web application for browsing popular movies and marking favorites."}
